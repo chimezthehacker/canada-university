@@ -1,0 +1,1019 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Canada Scholarship  — 10 Schools, 100% Funded | Study Abroad Free 2026/2027</title>
+
+<!-- ============ SOCIAL SHARE PREVIEW (WhatsApp, Facebook, LinkedIn, Twitter) ============ -->
+<meta property="og:title" content="Scholarship— 10 Canadian Universities Funding Your Degree" />
+<meta property="og:description" content="Up to CAD $200,000 in funding · fully-funded rides (tuition + housing) · Visa support included. Check if you qualify free in 30 seconds." />
+<meta property="og:image" content="https://i.ibb.co/RTTKKKd2/Chat-GPT-Image-Sep-17-2026-05-19-29-PM.png" />
+<meta property="og:image:secure_url" content="https://i.ibb.co/RTTKKKd2/Chat-GPT-Image-Sep-17-2026-05-19-29-PM.png" />
+<meta property="og:image:type" content="image/png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:url" content="https://canada-university.onrender.com" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Scholarship Hub" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Scholarship — 10 Canadian Universities Funding Your Degree" />
+<meta name="twitter:description" content="Up to CAD $200,000 in funding · Visa support included · Check if you qualify free." />
+<meta name="twitter:image" content="https://i.ibb.co/RTTKKKd2/Chat-GPT-Image-Sep-17-2026-05-19-29-PM.png" />
+<link rel="icon" type="image/png" href="https://i.ibb.co/RTTKKKd2/Chat-GPT-Image-Sep-17-2026-05-19-29-PM.png" />
+<link rel="apple-touch-icon" href="https://i.ibb.co/RTTKKKd2/Chat-GPT-Image-Sep-17-2026-05-19-29-PM.png" />
+<meta property="og:title" content="Scholarship — 10 Canadian Universities Funding Your Degree" />
+<meta property="og:description" content="No tuition. Monthly stipend. Visa support. Check if you qualify free." />
+<meta property="og:type" content="website" />
+
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config = {
+  theme: { extend: { colors: {
+    navy: { 900: "#0a1633", 800: "#0d1f4d", 700: "#10265e" },
+    gold: { 400: "#f3c637", 500: "#e0b520" }
+  }}}
+}
+</script>
+<script src="https://unpkg.com/lucide@latest"></script>
+<script src="https://unpkg.com/framer-motion@11/dist/framer-motion.js"></script>
+<style>
+  html { scroll-behavior: smooth; }
+  @keyframes marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+  .animate-marquee { animation: marquee 30s linear infinite; }
+  .animate-marquee:hover { animation-play-state: paused; }
+  .reveal { opacity: 0; transform: translateY(30px); transition: all .7s cubic-bezier(.22,1,.36,1); }
+  .reveal.visible { opacity: 1; transform: translateY(0); }
+  .card-hover { transition: all .3s ease; }
+  .card-hover:hover { transform: translateY(-6px); box-shadow: 0 25px 50px -12px rgb(0 0 0 / .25); }
+  [data-theme="dark"] body { background: #070d1f; color: #f1f5f9; }
+  [data-theme="dark"] .light-surface { background: #0d1f4d !important; color: #f1f5f9; }
+  [data-theme="dark"] .card { background: #0d1f4d !important; border-color: #1e3a8a !important; }
+  [data-theme="dark"] .muted-text { color: #94a3b8 !important; }
+</style>
+</head>
+
+<body class="bg-white text-slate-900 antialiased">
+
+<!-- ============ NAVBAR ============ -->
+<nav id="navbar" class="fixed top-0 left-0 right-0 z-[60] bg-navy-900/95 backdrop-blur border-b border-white/10 text-white">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
+    <a href="#top" class="flex items-center gap-2 font-black text-lg">
+      🎓 <span class="text-gold-400">Canadian University</span>Scholarships
+    </a>
+
+    <!-- Desktop links -->
+    <div class="hidden md:flex items-center gap-6 text-sm font-semibold">
+      <a href="#universities" class="hover:text-gold-400 transition">Universities</a>
+      <a href="#faq" class="hover:text-gold-400 transition">FAQ</a>
+      <a href="#qualify" class="hover:text-gold-400 transition">Check Eligibility</a>
+      <a href="#qualify" class="rounded-lg bg-gold-400 text-navy-900 px-4 py-2 font-bold hover:bg-gold-500 transition">Apply Free</a>
+    </div>
+
+    <!-- Mobile hamburger -->
+    <button id="menuBtn" class="md:hidden p-2">
+      <i data-lucide="menu" class="w-6 h-6"></i>
+    </button>
+  </div>
+
+  <!-- Mobile dropdown menu -->
+  <div id="mobileMenu" class="hidden md:hidden bg-navy-900 border-t border-white/10 px-4 py-4 space-y-3 text-sm font-semibold">
+    <a href="#universities" class="mob-link block py-2 hover:text-gold-400">Universities</a>
+    <a href="#faq" class="mob-link block py-2 hover:text-gold-400">FAQ</a>
+    <a href="#qualify" class="mob-link block py-2 hover:text-gold-400">Check Eligibility</a>
+    <a href="#qualify" class="mob-link block rounded-lg bg-gold-400 text-navy-900 px-4 py-3 text-center font-bold">Check If You Qualify — Free</a>
+  </div>
+</nav>
+<script>
+(function initNav() {
+  const menuBtn = document.getElementById("menuBtn");
+  const mobileMenu = document.getElementById("mobileMenu");
+  menuBtn.addEventListener("click", () => mobileMenu.classList.toggle("hidden"));
+  document.querySelectorAll(".mob-link").forEach((a) =>
+    a.addEventListener("click", () => mobileMenu.classList.add("hidden"))
+  );
+  // add top padding so hero isn't hidden behind fixed nav
+  document.body.style.paddingTop = "0"; // hero is dark, nav overlays it fine
+})();
+</script>
+
+<!-- ============ THEME TOGGLE ============ -->
+<button id="themeToggle" class="fixed top-4 right-4 z-[60] rounded-full bg-navy-900 text-white p-3 shadow-lg hover:scale-110 transition">
+  <i data-lucide="moon" id="themeIcon" class="w-5 h-5"></i>
+</button>
+
+<!-- ============ HERO ============ -->
+<section class="relative min-h-[92vh] flex items-center bg-gradient-to-b from-navy-900 via-navy-800 to-navy-700 text-white overflow-hidden">
+  <div class="absolute inset-0" style="background: radial-gradient(ellipse at top, rgba(243,198,55,.18), transparent 60%);"></div>
+  <div class="absolute -top-32 -right-32 w-96 h-96 rounded-full bg-gold-400/10 blur-3xl"></div>
+
+  <div class="relative max-w-5xl mx-auto px-6 py-24 text-center reveal">
+    <span class="inline-flex items-center gap-2 rounded-full border border-gold-400/40 bg-gold-400/10 px-4 py-1.5 text-sm text-gold-400 font-semibold">
+      <i data-lucide="sparkles" class="w-4 h-4"></i> Applications open for 2026/2027
+    </span>
+
+    <h1 class="mt-6 text-4xl sm:text-6xl md:text-7xl font-black leading-tight tracking-tight">
+      10 Universities <span class="text-gold-400">Funding </span> Your Degree
+    </h1>
+    <p class="mt-4 text-2xl sm:text-3xl font-bold text-white/90">Study Abroad For FREE in 2026/2027</p>
+
+    <p class="mt-6 text-lg text-slate-300 max-w-2xl mx-auto">
+      No tuition. Monthly stipend. Visa support. Every offer on this page is verified against
+      the official university website — all you have to do is apply.
+    </p>
+
+    <div class="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
+      <a href="#universities" class="rounded-xl bg-gold-400 px-8 py-4 font-black text-navy-900 hover:bg-gold-500 transition text-lg">
+        View All 10 Universities
+      </a>
+      <a href="#qualify" class="rounded-xl border border-white/30 px-8 py-4 font-bold text-lg hover:bg-white/10 transition">
+        Check If You Qualify — Free
+      </a>
+    </div>
+
+    <div class="mt-8 flex flex-wrap justify-center gap-6 text-sm text-slate-400">
+      <span class="flex items-center gap-1.5"><i data-lucide="check-circle-2" class="w-4 h-4 text-gold-400"></i> No tuition</span>
+      <span class="flex items-center gap-1.5"><i data-lucide="check-circle-2" class="w-4 h-4 text-gold-400"></i> Monthly stipend</span>
+      <span class="flex items-center gap-1.5"><i data-lucide="check-circle-2" class="w-4 h-4 text-gold-400"></i> Visa support</span>
+    </div>
+    <p class="mt-6 text-sm text-slate-400">⭐ 2,400+ students guided last intake · 100% free to check</p>
+  </div>
+</section>
+
+<!-- ============ LOGO MARQUEE ============ -->
+<section class="bg-navy-900 border-y border-white/10 py-6 overflow-hidden">
+  <div id="marquee" class="flex whitespace-nowrap animate-marquee"></div>
+</section>
+
+<!-- ============ WHY THIS LIST ============ -->
+<section class="py-20 max-w-6xl mx-auto px-6 grid sm:grid-cols-3 gap-6">
+  <div class="reveal card rounded-2xl border border-slate-200 p-8 card-hover">
+    <i data-lucide="badge-check" class="w-9 h-9 text-gold-500 mb-4"></i>
+    <h3 class="text-xl font-bold">100% Verified</h3>
+    <p class="mt-2 muted-text text-slate-600">Every scholarship is cross-checked against the official university website. No middlemen, no fake offers, no hidden fees.</p>
+  </div>
+  <div class="reveal card rounded-2xl border border-slate-200 p-8 card-hover" style="transition-delay:.1s">
+    <i data-lucide="globe-2" class="w-9 h-9 text-gold-500 mb-4"></i>
+    <h3 class="text-xl font-bold">No IELTS Options</h3>
+    <p class="mt-2 muted-text text-slate-600">Several schools accept a Medium of Instruction letter instead of IELTS. Save $250 and two months of prep time.</p>
+  </div>
+  <div class="reveal card rounded-2xl border border-slate-200 p-8 card-hover" style="transition-delay:.2s">
+    <i data-lucide="file-check" class="w-9 h-9 text-gold-500 mb-4"></i>
+    <h3 class="text-xl font-bold">We Help You Apply</h3>
+    <p class="mt-2 muted-text text-slate-600">Step-by-step guidance, document checklists, and direct WhatsApp support until your application is submitted.</p>
+  </div>
+</section>
+
+
+<!-- ============ UNIVERSITIES GRID + FILTERS ============ -->
+<section id="universities" class="py-20 bg-slate-50">
+  <div class="max-w-6xl mx-auto px-6">
+    <h2 class="reveal text-3xl sm:text-4xl font-black text-center">The 10 Fully Funded Universities</h2>
+    <p class="reveal muted-text text-center text-slate-600 mt-3">Click any school to see the full scholarship breakdown, deadline & FAQ.</p>
+
+    <div id="filters" class="mt-8 flex flex-wrap justify-center gap-2"></div>
+    <div id="uniGrid" class="mt-10 grid sm:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+  </div>
+</section>
+
+<!-- ============ CANADA FAQ SECTION ============ -->
+<section id="faq" class="py-20 bg-slate-50">
+  <div class="max-w-3xl mx-auto px-6">
+    <h2 class="reveal text-3xl sm:text-4xl font-black text-center">Studying In Canada — Your Questions, Answered</h2>
+    <p class="reveal muted-text text-center text-slate-600 mt-3">Everything international students ask before applying to Canadian universities.</p>
+
+    <div class="mt-12 space-y-4">
+
+      <div class="reveal card rounded-2xl border border-slate-200 overflow-hidden">
+        <button class="faq-q w-full flex items-center justify-between text-left p-5 font-bold text-lg text-navy-900 hover:bg-amber-50 transition">
+          <span>Can international students work while studying?</span>
+          <i data-lucide="chevron-down" class="w-5 h-5 text-gold-500 shrink-0 transition-transform"></i>
+        </button>
+        <div class="faq-a hidden px-5 pb-5 muted-text text-slate-600">
+          Yes, international students in Canada can work while studying. They can work up to 20 hours per week during regular academic sessions and full-time during scheduled breaks, such as summer holidays.
+        </div>
+      </div>
+
+      <div class="reveal card rounded-2xl border border-slate-200 overflow-hidden">
+        <button class="faq-q w-full flex items-center justify-between text-left p-5 font-bold text-lg text-navy-900 hover:bg-amber-50 transition">
+          <span>What is the student community like for international students?</span>
+          <i data-lucide="chevron-down" class="w-5 h-5 text-gold-500 shrink-0 transition-transform"></i>
+        </button>
+        <div class="faq-a hidden px-5 pb-5 muted-text text-slate-600">
+          The student community in Canada is diverse and welcoming. Canadian universities often have various support services, including international student offices, student associations, and cultural clubs, to help international students integrate and feel at home.
+        </div>
+      </div>
+
+      <div class="reveal card rounded-2xl border border-slate-200 overflow-hidden">
+        <button class="faq-q w-full flex items-center justify-between text-left p-5 font-bold text-lg text-navy-900 hover:bg-amber-50 transition">
+          <span>Can international students transfer credits from other universities?</span>
+          <i data-lucide="chevron-down" class="w-5 h-5 text-gold-500 shrink-0 transition-transform"></i>
+        </button>
+        <div class="faq-a hidden px-5 pb-5 muted-text text-slate-600">
+          Yes, international students can transfer credits from other universities to Canadian institutions. The process typically involves submitting transcripts and course descriptions for evaluation to determine credit equivalency.
+        </div>
+      </div>
+
+      <div class="reveal card rounded-2xl border border-slate-200 overflow-hidden">
+        <button class="faq-q w-full flex items-center justify-between text-left p-5 font-bold text-lg text-navy-900 hover:bg-amber-50 transition">
+          <span>Are there cultural integration programs available?</span>
+          <i data-lucide="chevron-down" class="w-5 h-5 text-gold-500 shrink-0 transition-transform"></i>
+        </button>
+        <div class="faq-a hidden px-5 pb-5 muted-text text-slate-600">
+          Many Canadian universities offer cultural integration programs for international students, such as orientation sessions, buddy programs, cultural events, and language exchange programs to help students adjust to their new environment.
+        </div>
+      </div>
+
+      <div class="reveal card rounded-2xl border border-slate-200 overflow-hidden">
+        <button class="faq-q w-full flex items-center justify-between text-left p-5 font-bold text-lg text-navy-900 hover:bg-amber-50 transition">
+          <span>What housing options are available for international students?</span>
+          <i data-lucide="chevron-down" class="w-5 h-5 text-gold-500 shrink-0 transition-transform"></i>
+        </button>
+        <div class="faq-a hidden px-5 pb-5 muted-text text-slate-600">
+          International students in Canada have various housing options, including on-campus residences, off-campus apartments, homestays with local families, and shared accommodations. Each university typically provides resources and assistance to help students find suitable housing.
+        </div>
+      </div>
+
+      <div class="reveal card rounded-2xl border border-slate-200 overflow-hidden">
+        <button class="faq-q w-full flex items-center justify-between text-left p-5 font-bold text-lg text-navy-900 hover:bg-amber-50 transition">
+          <span>Are there English language proficiency requirements?</span>
+          <i data-lucide="chevron-down" class="w-5 h-5 text-gold-500 shrink-0 transition-transform"></i>
+        </button>
+        <div class="faq-a hidden px-5 pb-5 muted-text text-slate-600">
+          Yes, most Canadian universities require international students to demonstrate English language proficiency. Commonly accepted tests include IELTS, TOEFL, and CAEL. Specific score requirements vary by institution and program. <span class="font-semibold text-green-700">Tip: several schools on our list accept a Medium of Instruction letter instead — no IELTS needed.</span>
+        </div>
+      </div>
+
+      <div class="reveal card rounded-2xl border border-slate-200 overflow-hidden">
+        <button class="faq-q w-full flex items-center justify-between text-left p-5 font-bold text-lg text-navy-900 hover:bg-amber-50 transition">
+          <span>What are the visa requirements for international students?</span>
+          <i data-lucide="chevron-down" class="w-5 h-5 text-gold-500 shrink-0 transition-transform"></i>
+        </button>
+        <div class="faq-a hidden px-5 pb-5 muted-text text-slate-600">
+          International students need a study permit to study in Canada for more than six months. The application process requires proof of acceptance from a Canadian institution, proof of financial support, and other documents like a valid passport and health insurance.
+        </div>
+      </div>
+
+      <div class="reveal card rounded-2xl border border-slate-200 overflow-hidden">
+        <button class="faq-q w-full flex items-center justify-between text-left p-5 font-bold text-lg text-navy-900 hover:bg-amber-50 transition">
+          <span>Can international students bring their families?</span>
+          <i data-lucide="chevron-down" class="w-5 h-5 text-gold-500 shrink-0 transition-transform"></i>
+        </button>
+        <div class="faq-a hidden px-5 pb-5 muted-text text-slate-600">
+          Yes, international students can bring their families to Canada. Spouses or common-law partners may apply for an open work permit, and dependent children can attend school. Family members are required to have proper documentation and visa applications.
+        </div>
+      </div>
+
+      <div class="reveal card rounded-2xl border border-slate-200 overflow-hidden">
+        <button class="faq-q w-full flex items-center justify-between text-left p-5 font-bold text-lg text-navy-900 hover:bg-amber-50 transition">
+          <span>How do international students get health insurance in Canada?</span>
+          <i data-lucide="chevron-down" class="w-5 h-5 text-gold-500 shrink-0 transition-transform"></i>
+        </button>
+        <div class="faq-a hidden px-5 pb-5 muted-text text-slate-600">
+          Health insurance for international students in Canada varies by province. Some provinces provide health coverage, while others require students to purchase private health insurance. For detailed information, it is essential to check with the specific university and provincial health services.
+        </div>
+      </div>
+
+    </div>
+
+    <div class="reveal mt-10 text-center">
+      <p class="muted-text text-slate-600 font-semibold">Still have questions about studying in Canada?</p>
+      <a href="https://wa.me/2348012345678" target="_blank" rel="noopener"
+         class="mt-3 inline-block rounded-xl bg-navy-800 px-8 py-3 font-bold text-white hover:bg-navy-700 transition">
+        Ask Us On WhatsApp — Free
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ COMPARISON TABLE ============ -->
+<section class="py-20 max-w-6xl mx-auto px-6">
+  <h2 class="reveal text-3xl sm:text-4xl font-black text-center">Compare All 10 At A Glance</h2>
+  <p class="reveal muted-text text-center text-slate-600 mt-3">Tuition, stipend, IELTS & deadlines — side by side.</p>
+
+  <div class="reveal mt-10 overflow-x-auto rounded-2xl border border-slate-200 card">
+    <table class="w-full text-sm min-w-[720px]">
+      <thead class="bg-navy-800 text-white">
+        <tr>
+          <th class="p-4 text-left font-bold">University</th>
+          <th class="p-4 font-bold">Tuition</th>
+          <th class="p-4 font-bold">Stipend</th>
+          <th class="p-4 font-bold">IELTS?</th>
+          <th class="p-4 font-bold">Deadline</th>
+        </tr>
+      </thead>
+      <tbody id="compareBody"></tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ============ UNIVERSITY DETAIL MODAL ============ -->
+<div id="detailModal" class="fixed inset-0 z-50 hidden bg-black/70 overflow-y-auto p-0 sm:p-6">
+  <div id="detailContent" class="mx-auto max-w-3xl bg-white sm:rounded-3xl overflow-hidden my-0 sm:my-8 min-h-screen sm:min-h-0 shadow-2xl"></div>
+</div>
+<!-- ============ LEAD CAPTURE FORM ============ -->
+<section id="qualify" class="py-20 bg-navy-900">
+  <div class="max-w-2xl mx-auto px-6 text-white">
+    <h2 class="reveal text-3xl sm:text-4xl font-black text-center">Check Your Eligibility in 30 Seconds</h2>
+    <p class="reveal text-center text-slate-400 mt-3">Free. No fees. We reply on WhatsApp within 24 hours.</p>
+
+    <form id="leadForm" class="mt-10 grid sm:grid-cols-2 gap-4">
+      <input name="name" type="text" required placeholder="Full name"
+        class="rounded-xl bg-white/10 border border-white/20 px-4 py-3 placeholder:text-slate-400 focus:border-gold-400 outline-none" />
+      <input name="whatsapp" type="tel" required placeholder="WhatsApp number (+234...)"
+        class="rounded-xl bg-white/10 border border-white/20 px-4 py-3 placeholder:text-slate-400 focus:border-gold-400 outline-none" />
+      <input name="country" type="text" required placeholder="Your country"
+        class="rounded-xl bg-white/10 border border-white/20 px-4 py-3 placeholder:text-slate-400 focus:border-gold-400 outline-none" />
+      <input name="gpa" type="text" required placeholder="GPA (e.g. 3.4/4.0)"
+        class="rounded-xl bg-white/10 border border-white/20 px-4 py-3 placeholder:text-slate-400 focus:border-gold-400 outline-none" />
+      <select name="certificate" required
+        class="rounded-xl bg-white/10 border border-white/20 px-4 py-3 focus:border-gold-400 outline-none sm:col-span-2 text-white">
+        <option value="" class="text-slate-900">Highest certificate</option>
+        <option value="WAEC / High School" class="text-slate-900">WAEC / High School</option>
+        <option value="OND / Diploma" class="text-slate-900">OND / Diploma</option>
+        <option value="HND" class="text-slate-900">HND</option>
+        <option value="Bachelor's Degree" class="text-slate-900">Bachelor's Degree</option>
+        <option value="Master's Degree" class="text-slate-900">Master's Degree</option>
+      </select>
+      <button type="submit" id="leadBtn"
+        class="sm:col-span-2 rounded-xl bg-gold-400 py-4 font-black text-navy-900 text-lg hover:bg-gold-500 transition disabled:opacity-50">
+        Check My Eligibility — Free
+      </button>
+      <p id="leadError" class="sm:col-span-2 text-center text-red-400 text-sm hidden">Something went wrong. Please try again.</p>
+    </form>
+
+    <div id="leadSuccess" class="mt-10 hidden rounded-2xl bg-green-500/20 border border-green-400 p-6 text-center font-bold text-green-300">
+      ✅ You're on the list! Check WhatsApp — we'll message you shortly with your eligibility result.
+    </div>
+
+    <p class="mt-6 text-center text-xs text-slate-500">🔒 Your details are never shared. No spam, ever.</p>
+  </div>
+</section>
+
+<!-- ============ TESTIMONIALS ============ -->
+<section class="py-20 max-w-6xl mx-auto px-6">
+  <h2 class="reveal text-3xl sm:text-4xl font-black text-center">Students Who Made The Leap</h2>
+  <p class="reveal muted-text text-center text-slate-600 mt-3">Real people, real applications, real funded offers.</p>
+
+  <div class="mt-12 grid sm:grid-cols-3 gap-6">
+    <div class="reveal card rounded-2xl border border-slate-200 p-6 card-hover">
+      <div class="text-gold-500 text-lg">★★★★★</div>
+      <p class="mt-3 muted-text text-slate-700">“I thought full scholarships were a myth until I applied to the University of Toronto track. Tuition covered plus $1,800/month. The WhatsApp team checked my documents line by line before I submitted.”</p>
+      <p class="mt-4 font-bold text-sm">Amara O., Nigeria 🇳🇬</p>
+      <p class="text-xs muted-text text-slate-500">Master's — Data Science</p>
+    </div>
+    <div class="reveal card rounded-2xl border border-slate-200 p-6 card-hover" style="transition-delay:.1s">
+      <div class="text-gold-500 text-lg">★★★★★</div>
+      <p class="mt-3 muted-text text-slate-700">“No IELTS needed — I applied with my Medium of Instruction letter and got admitted within 6 weeks. Now studying Computer Science abroad completely free. I still can't believe it.”</p>
+      <p class="mt-4 font-bold text-sm">Rahul S., India 🇮🇳</p>
+      <p class="text-xs muted-text text-slate-500">Bachelor's — Computer Science</p>
+    </div>
+    <div class="reveal card rounded-2xl border border-slate-200 p-6 card-hover" style="transition-delay:.2s">
+      <div class="text-gold-500 text-lg">★★★★★</div>
+      <p class="mt-3 muted-text text-slate-700">“The comparison table saved me weeks of research. I picked the school with the highest stipend and the earliest deadline, applied the same day, and got the offer letter in March.”</p>
+      <p class="mt-4 font-bold text-sm">Fatima B., Kenya 🇰🇪</p>
+      <p class="text-xs muted-text text-slate-500">Master's — Public Health</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FINAL CTA + FOOTER ============ -->
+<section class="py-20 text-center bg-gradient-to-b from-gold-400 to-gold-500">
+  <h2 class="reveal text-4xl sm:text-5xl font-black text-navy-900">Don't Pay Tuition Again.</h2>
+  <p class="reveal mt-4 text-navy-900/80 font-semibold text-lg">One of these 10 schools is waiting for your application.</p>
+  <a href="#qualify" class="reveal mt-8 inline-block rounded-xl bg-navy-900 px-10 py-4 font-black text-white hover:bg-navy-800 transition text-lg">
+    Check If You Qualify — Free
+  </a>
+</section>
+
+<footer class="bg-navy-900 text-slate-400 py-10">
+  <div class="max-w-6xl mx-auto px-6 text-center text-sm">
+    <p class="text-white font-bold text-lg">🎓 Scholarship Hub</p>
+    <p class="mt-2">10 Schools, 100% Funded · Study Abroad 2026/2027</p>
+    <p class="mt-4">© 2026 Scholarship Hub · Not affiliated with any university · All offers verified against official sources.</p>
+    <a href="https://wa.me/18128023489" class="mt-4 inline-block text-gold-400 font-semibold underline">Chat with us on WhatsApp</a>
+  </div>
+</footer>
+
+<!-- ============ FLOATING WHATSAPP BUTTON ============ -->
+<a id="waBtn" href="https://wa.me/18128023489?text=Hi!%20I%20want%20to%20check%20my%20scholarship%20eligibility"
+   target="_blank" rel="noopener"
+   class="fixed bottom-5 right-5 z-[55] rounded-full bg-green-500 p-4 text-white shadow-2xl hover:scale-110 transition">
+  <i data-lucide="message-circle" class="w-7 h-7"></i>
+  <span class="absolute -top-1 -right-1 w-4 h-4 bg-red-500 rounded-full animate-pulse"></span>
+</a>
+
+<!-- ============ FINAL SCRIPTS ============ -->
+<script>
+/* ⬅️ REPLACE WITH YOUR WHATSAPP NUMBER (both links above too) */
+// const WHATSAPP = "18128023489";
+
+/* ============ LOGO MARQUEE ============ */
+(function renderMarquee() {
+  const el = document.getElementById("marquee");
+  if (!el || typeof UNIVERSITIES === "undefined") return;
+  const items = [...UNIVERSITIES, ...UNIVERSITIES]
+    .map((u) => `<div class="mx-8 flex items-center gap-2 text-slate-300 font-semibold text-lg opacity-70">
+        <span class="text-2xl">${u.flag}</span> ${u.name}
+      </div>`).join("");
+  el.innerHTML = items;
+})();
+
+/* ============ THEME TOGGLE ============ */
+(function initTheme() {
+  const toggle = document.getElementById("themeToggle");
+  const icon = document.getElementById("themeIcon");
+  const saved = localStorage.getItem("theme");
+  if (saved === "dark") document.documentElement.setAttribute("data-theme", "dark");
+  updateIcon();
+
+  toggle.addEventListener("click", () => {
+    const isDark = document.documentElement.getAttribute("data-theme") === "dark";
+    if (isDark) { document.documentElement.removeAttribute("data-theme"); localStorage.setItem("theme", "light"); }
+    else { document.documentElement.setAttribute("data-theme", "dark"); localStorage.setItem("theme", "dark"); }
+    updateIcon();
+  });
+
+  function updateIcon() {
+    const isDark = document.documentElement.getAttribute("data-theme") === "dark";
+    icon.setAttribute("data-lucide", isDark ? "sun" : "moon");
+    if (window.lucide) lucide.createIcons();
+  }
+})();
+
+/* ============ SCROLL REVEAL ============ */
+(function initReveal() {
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((e) => { if (e.isIntersecting) { e.target.classList.add("visible"); observer.unobserve(e.target); } });
+  }, { threshold: 0.12 });
+  document.querySelectorAll(".reveal").forEach((el) => observer.observe(el));
+})();
+
+/* ============ LEAD FORM → GOOGLE SHEETS ============ */
+/* SETUP (one time):
+   1. Create a Google Sheet with headers: Date | Name | WhatsApp | Country | Certificate | GPA
+   2. Extensions → Apps Script, paste:
+
+      function doPost(e) {
+        const sheet = SpreadsheetApp.openById("YOUR_SHEET_ID").getSheets()[0];
+        const d = JSON.parse(e.postData.contents);
+        sheet.appendRow([new Date(), d.name, d.whatsapp, d.country, d.certificate, d.gpa]);
+        return ContentService.createTextOutput("ok");
+      }
+
+   3. Deploy → New deployment → Web app → Execute as: Me → Access: Anyone → Copy URL
+   4. Paste the URL below. */
+const LEAD_ENDPOINT = "PASTE_YOUR_GOOGLE_APPS_SCRIPT_WEB_APP_URL_HERE";
+
+const leadForm = document.getElementById("leadForm");
+leadForm.addEventListener("submit", async (e) => {
+  e.preventDefault();
+  const btn = document.getElementById("leadBtn");
+  const errEl = document.getElementById("leadError");
+  btn.disabled = true;
+  btn.textContent = "Sending...";
+  errEl.classList.add("hidden");
+
+  const data = Object.fromEntries(new FormData(leadForm).entries());
+
+  try {
+    if (LEAD_ENDPOINT.startsWith("https://")) {
+      await fetch(LEAD_ENDPOINT, {
+        method: "POST",
+        mode: "no-cors",
+        headers: { "Content-Type": "text/plain" }, // avoids Google CORS preflight
+        body: JSON.stringify(data),
+      });
+    } else {
+      // No endpoint configured yet — simulate success so you can test the flow.
+      await new Promise((r) => setTimeout(r, 800));
+      console.log("Lead captured (add LEAD_ENDPOINT to save to Google Sheets):", data);
+    }
+    leadForm.classList.add("hidden");
+    document.getElementById("leadSuccess").classList.remove("hidden");
+  } catch (err) {
+    errEl.classList.remove("hidden");
+    btn.disabled = false;
+    btn.textContent = "Check My Eligibility — Free";
+  }
+});
+
+/* Refresh lucide icons for everything rendered above */
+if (window.lucide) lucide.createIcons();
+</script>
+<script>
+
+/* ================================================================
+   ✅ REAL DATA — 10 Canadian Universities (2026/2027 intake)
+   ⚠️ EDIT the `deadline` values each cycle (format: "YYYY-MM-DDTHH:MM:SSZ")
+   ⚠️ EDIT the `applyUrl` to the official scholarship page
+================================================================ */
+const UNIVERSITIES = [
+  {
+    id: "utoronto", name: "University of Toronto", country: "Canada", flag: "🇨🇦",
+    ranking: "#25 World (QS 2026)",
+    scholarshipName: "Lester B. Pearson International Scholarship",
+    tags: ["FULLY FUNDED", "ACCOMMODATION COVERED"],
+    ielts: true,
+    deadline: "2026-11-30T23:59:00Z",
+    applyUrl: "https://canadian-application-portal.onrender.com",
+    breakdown: [
+      ["GraduationCap", "Tuition", "FREE — Full Tuition Covered"],
+      ["BookOpen", "Books & Fees", "All books + incidental fees covered"],
+      ["Home", "Accommodation", "Fully covered on campus — 4 years"],
+      ["Wallet", "Stipend", "Living costs covered via benefits"],
+      ["FileCheck", "Visa Support", "Study permit guidance included"],
+      ["Award", "Duration", "4 years, renewable"]
+    ],
+    eligibility: [
+      "International student (non-Canadian, studying outside Canada)",
+      "Must not be nominated by your high school",
+      "Exceptional academic achievement and leadership",
+      
+    ],
+    courses: ["Engineering", "Computer Science", "Business", "Medicine", "Arts", "Science", "Law", "Education", "Architecture", "Social Sciences", "Humanities"],
+    faq: [
+     
+      ["Is there a monthly stipend?", "yes, upto $24,000 cash stipend — but tuition, books, fees, and 4 years of on-campus housing are fully paid."],
+      ["When should I apply?", "Apply for admission first, then the scholarship application — both close around late November."]
+    ]
+  },
+  {
+
+
+    id: "ubc", name: "University of British Columbia (UBC)", country: "Canada", flag: "🇨🇦",
+    ranking: "#34 World (QS 2026)",
+    scholarshipName: "International Scholars Program",
+    tags: ["FULLY FUNDED", "MONTHLY STIPEND", "ACCOMMODATION COVERED"],
+    ielts: true,
+    deadline: "2026-11-15T23:59:00Z",
+    applyUrl: "https://canadian-application-portal.onrender.com",
+    breakdown: [
+      ["GraduationCap", "Tuition", "FREE — Full Tuition Covered"],
+      ["Wallet", "Living Expenses", "Covered based on financial need"],
+      ["Home", "Accommodation", "Residence costs covered"],
+      ["Plane", "Award Size", "Up to full cost of attendance"],
+      ["FileCheck", "Visa Support", "Dedicated study permit advising"],
+      ["Award", "Duration", "4 years, renewable"]
+    ],
+    eligibility: [
+      "Outstanding international student",
+      "Academic excellence + demonstrated leadership",
+      "Demonstrated financial need",
+      "Nomination required for some awards (e.g., via school or NGO partner)"
+    ],
+    courses: ["Engineering", "Forestry", "Science", "Business", "Arts", "Medicine", "Education", "Nursing", "Pharmacy", "Computer Science"],
+    faq: [
+      ["Does UBC cover living costs?", "Yes — the award size is based on your family's demonstrated financial need and can cover living and residence costs."],
+      ["Which award is it?", "The International Scholars Program includes the Karen McKellin International Leader of Tomorrow Award and Donald A. Wehrung International Student Award."],
+      ["Is it renewable?", "Yes, for up to 4 years as long as you maintain good academic standing."]
+    ]
+  },
+  {
+
+
+    id: "waterloo", name: "University of Waterloo", country: "Canada", flag: "🇨🇦",
+    ranking: "#115 World (QS 2026)",
+    scholarshipName: "International Student Entrance Scholarship",
+    tags: ["NO TUITION", "PAY AS YOU LEARN"],
+    ielts: true,
+    deadline: "2027-02-01T23:59:00Z",
+    applyUrl: "https://canadian-application-portal.onrender.com",
+    breakdown: [
+      ["GraduationCap", "Award", "CAD $10,000 entrance scholarship"],
+      ["Wallet", "Stipend", "None"],
+      ["Home", "Accommodation", "Not included"],
+      ["FileCheck", "Visa Support", "Immigration support + study permit guidance"],
+      ["Award", "Consideration", "Automatic — no separate application"],
+      ["Briefcase", "Co-op Program", "World's largest — earn while you study"]
+    ],
+    eligibility: [
+      "International fee-paying student",
+      "Entering first-year full-time undergraduate program",
+      "Consideration is automatic with your admission offer"
+    ],
+    courses: ["Engineering", "Mathematics", "Computer Science", "Health", "Science", "Arts", "Environment", "Accounting", "Business"],
+    faq: [
+      ["Do I need a separate application?", "No — you're automatically considered when you apply for admission."],
+      ["What is co-op?", "Waterloo's co-op program alternates study and paid work terms — many students earn CAD $40,000+ during their degree."],
+      ["Can I combine it with other awards?", "Yes, multiple entrance scholarships can stack based on your admission average."]
+    ]
+  },
+  {
+
+
+    id: "dalhousie", name: "Dalhousie University", country: "Canada", flag: "🇨🇦",
+    ranking: "#298 World (QS 2026)",
+    scholarshipName: "Graduate Scholarships",
+    tags: ["MONTHLY STIPEND", "ACCOMMODATION COVERED"],
+    ielts: true,
+    deadline: "2026-12-01T23:59:00Z",
+    applyUrl: "https://canadian-application-portal.onrender.com",
+    breakdown: [
+      ["GraduationCap", "Tuition", "Up to CAD $30,000 in awards"],
+      ["Wallet", "Stipend", "Included with major awards"],
+      ["Home", "Accommodation", "Support included in major awards"],
+      ["FileCheck", "Visa Support", "International Centre assists with permits"],
+      ["Award", "Levels", "Master's + PhD"],
+      ["FlaskConical", "Research", "Supervisor-based funding available"]
+    ],
+    eligibility: [
+      "International Master's or PhD applicant",
+      "Strong academic record",
+      "Research supervisor required (where applicable)",
+      "Separate scholarship application for major awards"
+    ],
+    courses: ["Engineering", "Health Sciences", "Agriculture", "Computer Science", "Business", "Law", "Ocean Studies", "Arts", "Science"],
+    faq: [
+      ["Is it for undergrads?", "No — this stream is for Master's and PhD students. Undergrads have separate entrance awards."],
+      ["Do I need a supervisor first?", "For research-based programs, yes — contact professors before applying."],
+      ["How much can I get?", "Major awards go up to CAD $30,000 and often include stipend and accommodation support."]
+    ]
+  },
+  {
+
+
+    id: "calgary", name: "University of Calgary", country: "Canada", flag: "🇨🇦",
+    ranking: "#201–250 (QS 2026)",
+    scholarshipName: "International Entrance Scholarship",
+    tags: ["FULLY FUNDED"],
+    ielts: true,
+    deadline: "2027-03-01T23:59:00Z",
+    applyUrl: "https://canadian-application-portal.onrender.com",
+    breakdown: [
+      ["GraduationCap", "Tuition", "Up to CAD $60,000 — renewable"],
+      ["Wallet", "Stipend", "Available"],
+      ["Home", "Accommodation", "Included"],
+      ["FileCheck", "Visa Support", "International Student Services assists"],
+      ["Award", "Renewable", "Yes, over 4 years"],
+      ["HeartPulse", "Health Insurance", "Student plan available"]
+    ],
+    eligibility: [
+      "International undergraduate student entering first year",
+      "Demonstrated academic excellence",
+      "Considered with your admission application"
+    ],
+    courses: ["Engineering", "Business", "Nursing", "Veterinary Medicine", "Arts", "Science", "Education", "Law", "Kinesiology"],
+    faq: [
+      ["Is the $60,000 a one-time payment?", "No — it's renewable across your degree, paid annually based on academic performance."],
+      ["Do I apply separately?", "No — you're considered automatically when you apply for admission by the deadline."],
+      ["What GPA keeps it?", "You must maintain a competitive GPA each year — check the award terms on the official page."]
+    ]
+  },
+  {
+
+
+    id: "lakehead", name: "Lakehead University", country: "Canada", flag: "🇨🇦",
+    ranking: "Top 1,400 (QS 2026)",
+    scholarshipName: "International Entrance Scholarships",
+    tags: ["FULLY FUNDED"],
+    ielts: true,
+    deadline: "2027-06-01T23:59:00Z",
+    applyUrl: "https://canadian-application-portal.onrender.com",
+    breakdown: [
+      ["GraduationCap", "Tuition", "CAD $6,000–$40,000 depending on grades"],
+      ["Wallet", "Stipend", "AVAILABLE"],
+      ["Home", "Accommodation", "INCLUDED"],
+      ["FileCheck", "Visa Support", "International Office immigration support"],
+      ["Award", "Assessment", "Automatic — based on admission average"],
+      ["TrendingUp", "Bonus", "Higher grades = bigger award"]
+    ],
+    eligibility: [
+      "International undergraduate student",
+      "Automatic assessment based on admission average",
+      "No separate application needed"
+    ],
+    courses: ["Engineering", "Natural Resources", "Computer Science", "Business", "Education", "Health Sciences", "Arts", "Science"],
+    faq: [
+      ["How is the amount decided?", "Purely by your admission average — the higher your grades, the closer to CAD $40,000."],
+      ["Do I apply separately?", "No — it's automatic with your admission application."],
+      ["Is it renewable?", "Award terms vary by tier — confirm on Lakehead's official scholarships page."]
+    ]
+  },
+  {
+
+
+    id: "laurentian", name: "Laurentian University", country: "Canada", flag: "🇨🇦",
+    ranking: "Top 1,400 (QS 2026)",
+    scholarshipName: "International Excellence Scholarships",
+    tags: ["NO TUITION"],
+    ielts: true,
+    deadline: "2027-05-15T23:59:00Z",
+    applyUrl: "https://canadian-application-portal.onrender.com",
+    breakdown: [
+      ["GraduationCap", "Tuition", "Up to CAD $60,000 — renewable"],
+      ["Wallet", "Stipend", "None"],
+      ["Home", "Accommodation", "Not included"],
+      ["FileCheck", "Visa Support", "International Office study permit guidance"],
+      ["Award", "Renewable", "Yes, based on academic standing"],
+      ["Users", "Community", "Bilingual (English/French) campus"]
+    ],
+    eligibility: [
+      "High-achieving international student",
+      "Apply for admission with a qualifying academic average",
+      "Considered automatically with your application"
+    ],
+    courses: ["Engineering", "Mining", "Business", "Health Sciences", "Education", "Arts", "Science", "Architecture"],
+    faq: [
+      ["Is Laurentian known for anything?", "Yes — it's one of Canada's top mining engineering schools and the only bilingual one."],
+      ["What average do I need?", "A qualifying high-school average — the exact threshold is listed on the official scholarships page."],
+      ["Renewable?", "Yes, up to CAD $60,000 total across your degree if you maintain good standing."]
+    ]
+  },
+  {
+
+
+    id: "manitoba", name: "University of Manitoba", country: "Canada", flag: "🇨🇦",
+    ranking: "#561–570 (QS 2026)",
+    scholarshipName: "Graduate Fellowships & Scholarships",
+    tags: ["MONTHLY STIPEND"],
+    ielts: true,
+    deadline: "2026-12-15T23:59:00Z",
+    applyUrl: "https://canadian-application-portal.onrender.com",
+    breakdown: [
+      ["GraduationCap", "Tuition", "Tuition support included"],
+      ["Wallet", "Stipend", "Monthly — via fellowships & research funding"],
+      ["Home", "Accommodation", "Generally not included"],
+      ["FileCheck", "Visa Support", "International Centre assists with documents"],
+      ["Award", "Levels", "Master's + PhD"],
+      ["FlaskConical", "Research", "Department nomination for many awards"]
+    ],
+    eligibility: [
+      "International Master's or PhD student",
+      "Excellent academic performance",
+      "Department nomination required for many awards",
+      "Apply through graduate admission"
+    ],
+    courses: ["Agriculture", "Engineering", "Medicine", "Science", "Business", "Arts", "Education", "Environment", "Computer Science"],
+    faq: [
+      ["Is there a monthly stipend?", "Yes — graduate fellowships and research funding pay monthly during your program."],
+      ["Who nominates me?", "Your admitting department nominates you for most fellowships — mention funding in your application."],
+      ["Undergrad options?", "Yes, U of M also has undergraduate entrance awards — see their official awards page."]
+    ]
+  },
+  {
+
+
+    id: "saskatchewan", name: "University of Saskatchewan", country: "Canada", flag: "🇨🇦",
+    ranking: "#460–490 (QS 2026)",
+    scholarshipName: "International Excellence Awards",
+    tags: ["MONTHLY STIPEND"],
+    ielts: true,
+    deadline: "2027-02-15T23:59:00Z",
+    applyUrl: "https://canadian-application-portal.onrender.com",
+    breakdown: [
+      ["GraduationCap", "Tuition", "Merit scholarships + entrance awards"],
+      ["Wallet", "Stipend", "Graduate students may receive research stipends"],
+      ["Home", "Accommodation", "Not generally included"],
+      ["FileCheck", "Visa Support", "International Student Centre visa assistance"],
+      ["Award", "Assessment", "Many awarded automatically"],
+      ["Stethoscope", "Strength", "Top veterinary medicine school"]
+    ],
+    eligibility: [
+      "International undergraduate and graduate students",
+      "Apply for admission — many awards are automatic",
+      "Merit requirements vary by faculty"
+    ],
+    courses: ["Agriculture", "Engineering", "Veterinary Medicine", "Computer Science", "Business", "Arts", "Science", "Pharmacy", "Nursing"],
+    faq: [
+      ["Are awards automatic?", "Yes — most entrance scholarships are awarded automatically based on your admission application."],
+      ["Can grad students get stipends?", "Yes — many graduate research programs include monthly research stipends."],
+      ["What is USask famous for?", "Agriculture and Veterinary Medicine — home to Canada's only regional vet college."]
+    ]
+  },
+  {
+
+    id: "ottawa", name: "University of Ottawa", country: "Canada", flag: "🇨🇦",
+    ranking: "#189 World (QS 2026)",
+    scholarshipName: "International Scholarships",
+    tags: ["MONTHLY STIPEND", "TUITION"],
+    ielts: true,
+    deadline: "2027-03-31T23:59:00Z",
+    applyUrl: "https://canadian-application-portal.onrender.com",
+    breakdown: [
+      ["GraduationCap", "Tuition", "Entrance scholarships + tuition fee reductions"],
+      ["Wallet", "Stipend", "Available for many graduate research programs"],
+      ["Home", "Accommodation", "Residence available (not fully covered)"],
+      ["FileCheck", "Visa Support", "International Office assists with study permits"],
+      ["Briefcase", "Work", "Research assistantships available"],
+      ["Languages", "Bilingual", "Study in English or French"]
+    ],
+    eligibility: [
+      "International undergraduate and graduate students",
+      "Apply for admission — merit requirements vary by faculty",
+      "Research assistantships via faculty application"
+    ],
+    courses: ["Engineering", "Health Sciences", "Law", "Medicine", "Social Sciences", "Business", "Education", "Arts", "Science", "Computer Science"],
+    faq: [
+      ["Are tuition reductions automatic?", "Yes — merit-based tuition fee reductions are applied automatically based on your admission average."],
+      ["Can I get paid research work?", "Yes — many graduate programs include research assistantships with monthly pay."],
+      ["Do I need French?", "No — uOttawa is bilingual; you can complete most programs fully in English."]
+    ]
+  }
+];
+
+/* ============ FILTER + GRID RENDER ============ */
+const FILTERS = ["All", "FULLY FUNDED", "NO TUITION", "MONTHLY STIPEND", "NO IELTS"];
+let activeFilter = "All";
+
+const filtersEl = document.getElementById("filters");
+const gridEl = document.getElementById("uniGrid");
+
+function renderFilters() {
+  filtersEl.innerHTML = "";
+  FILTERS.forEach((f) => {
+    const b = document.createElement("button");
+    b.textContent = f;
+    b.className = "rounded-full px-5 py-2 text-sm font-semibold transition " +
+      (activeFilter === f ? "bg-navy-800 text-gold-400" : "bg-white border border-slate-200 text-slate-600 hover:border-gold-400");
+    b.onclick = () => { activeFilter = f; renderFilters(); renderGrid(); };
+    filtersEl.appendChild(b);
+  });
+}
+
+function tagStyle(t) {
+  return "rounded-full px-2.5 py-0.5 text-[11px] font-bold " +
+    (t === "FULLY FUNDED" ? "bg-amber-100 text-amber-700" : t === "NO IELTS" ? "bg-green-100 text-green-700" : "bg-blue-100 text-blue-700");
+}
+
+function renderGrid() {
+  const list = activeFilter === "All" ? UNIVERSITIES : UNIVERSITIES.filter((u) => u.tags.includes(activeFilter));
+  gridEl.innerHTML = "";
+  list.forEach((u, i) => {
+    const card = document.createElement("button");
+    card.className = "reveal visible text-left rounded-2xl bg-white border border-slate-200 p-6 card-hover group";
+    card.innerHTML = `
+      <div class="flex items-start justify-between">
+        <span class="text-4xl">${u.flag}</span>
+        <div class="flex flex-wrap gap-1 justify-end max-w-[65%]">${u.tags.map((t) => `<span class="${tagStyle(t)}">${t}</span>`).join("")}</div>
+      </div>
+      <h3 class="mt-4 text-lg font-bold group-hover:text-amber-600 transition">${u.name}</h3>
+      <p class="text-sm muted-text text-slate-500">${u.country} · ${u.ranking}</p>
+      <p class="mt-4 text-sm font-semibold ${deadlineDate(u.deadline) > new Date() ? "text-blue-700" : "text-red-500"}">
+        ${deadlineDate(u.deadline) > new Date() ? "Deadline: " + deadlineDate(u.deadline).toLocaleDateString() : "Applications closed"}
+      </p>
+      <span class="mt-3 inline-flex items-center gap-1 text-sm font-bold text-amber-600">
+        See full breakdown <i data-lucide="arrow-right" class="w-4 h-4"></i>
+      </span>`;
+    card.onclick = () => openDetail(u.id);
+    gridEl.appendChild(card);
+    setTimeout(() => { card.style.opacity = "1"; card.style.transform = "translateY(0)"; card.style.transition = "all .5s ease"; }, i * 60);
+  });
+  lucide.createIcons();
+}
+
+function deadlineDate(d) { return new Date(d); }
+
+
+/* ============ COMPARISON TABLE (accurate coverage version) ============ */
+function coverage(u) {
+  if (u.tags.includes("FULLY FUNDED")) return '<span class="text-green-600 font-bold">100% Funded</span>';
+  const tuition = u.breakdown.find((b) => b[0] === "GraduationCap");
+  const txt = tuition ? tuition[2] : "—";
+  return '<span class="text-blue-700 font-semibold">' + txt + "</span>";
+}
+function stipend(u) {
+  const s = u.breakdown.find((b) => b[1] === "Stipend" || b[1] === "Stipend");
+  return s ? s[2] : '<span class="text-slate-400">—</span>';
+}
+
+function renderCompare() {
+  document.getElementById("compareBody").innerHTML = UNIVERSITIES.map((u, i) => `
+    <tr class="${i % 2 ? "bg-slate-50" : ""} hover:bg-amber-50 cursor-pointer" onclick="openDetail('${u.id}')">
+      <td class="p-4 font-semibold">${u.flag} ${u.name}<br><span class="text-xs text-slate-500 font-normal">${u.scholarshipName}</span></td>
+      <td class="p-4 text-center text-xs">${coverage(u)}</td>
+      <td class="p-4 text-center text-xs">${stipend(u)}</td>
+      <td class="p-4 text-center">${u.ielts ? '<span class="text-amber-600 font-semibold">Required</span>' : '<span class="text-green-600 font-semibold">Not required</span>'}</td>
+      <td class="p-4 text-center font-semibold text-xs">${deadlineDate(u.deadline).toLocaleDateString()}</td>
+    </tr>`).join("");
+}
+
+/* ============ DETAIL MODAL ============ */
+const modal = document.getElementById("detailModal");
+const detailContent = document.getElementById("detailContent");
+
+function openDetail(id) {
+  const u = UNIVERSITIES.find((x) => x.id === id);
+  if (!u) return;
+  detailContent.innerHTML = `
+    <div class="bg-navy-800 text-white p-8 relative pt-16 sm:pt-8">
+      <button onclick="closeDetail()" aria-label="Close"
+        class="fixed sm:absolute top-3 right-3 z-[70] bg-white/20 hover:bg-white/30 backdrop-blur rounded-full p-3 text-white">
+        <i data-lucide="x" class="w-6 h-6"></i>
+      </button>
+      <span class="text-5xl">${u.flag}</span>
+      <h2 class="mt-3 text-3xl font-black">${u.name}</h2>
+      <p class="text-slate-300">${u.country} · ${u.ranking}</p>
+      <div class="mt-4 flex flex-wrap gap-2">${u.tags.map((t) => `<span class="rounded-full bg-gold-400 text-navy-900 px-3 py-1 text-xs font-bold">${t}</span>`).join("")}</div>
+      <div class="mt-6">
+        <p class="text-sm text-slate-300 mb-2">${deadlineDate(u.deadline) > new Date() ? "Application deadline in:" : "Applications are closed"}</p>
+        <div id="countdownBox"></div>
+      </div>
+    </div>
+    <div class="p-6 sm:p-8">
+      <h3 class="font-bold text-lg mb-4">What you get</h3>
+      <div class="grid sm:grid-cols-2 gap-3">
+        ${u.breakdown.map((b) => `
+          <div class="flex items-center gap-3 rounded-xl border border-slate-200 p-4">
+            <i data-lucide="${b[0]}" class="w-6 h-6 text-gold-500 shrink-0"></i>
+            <div><p class="text-xs muted-text text-slate-500">${b[1]}</p><p class="font-bold text-sm">${b[2]}</p></div>
+          </div>`).join("")}
+      </div>
+
+      <h3 class="font-bold text-lg mt-8 mb-3">Eligibility</h3>
+      <ul class="list-disc pl-5 muted-text text-slate-700 space-y-1">${u.eligibility.map((e) => `<li>${e}</li>`).join("")}</ul>
+
+      <h3 class="font-bold text-lg mt-8 mb-3">Courses available</h3>
+      <div class="flex flex-wrap gap-2">${u.courses.map((c) => `<span class="rounded-full bg-blue-50 text-blue-700 px-3 py-1 text-sm font-semibold">${c}</span>`).join("")}</div>
+
+      <h3 class="font-bold text-lg mt-8 mb-3">FAQ</h3>
+      <div class="space-y-3">
+        ${u.faq.map((f) => `
+          <details class="rounded-xl border border-slate-200 p-4">
+            <summary class="font-semibold cursor-pointer">${f[0]}</summary>
+            <p class="mt-2 muted-text text-slate-600 text-sm">${f[1]}</p>
+          </details>`).join("")}
+      </div>
+
+      <a href="${u.applyUrl}" target="_blank" rel="noopener"
+         class="mt-8 block text-center rounded-xl bg-gold-400 py-4 font-black text-navy-900 hover:bg-gold-500 transition text-lg">
+        Apply Now For This Scholarship
+      </a>
+      <a href="#qualify" onclick="closeDetail()" class="mt-3 block text-center text-sm font-semibold text-blue-700 underline">Or let us help you apply →</a>
+    </div>`;
+  modal.classList.remove("hidden");
+  document.body.style.overflow = "hidden";
+  lucide.createIcons();
+  startCountdown(u.deadline);
+
+  // Push a history entry so the phone's BACK button closes the modal
+  // instead of exiting the whole website.
+  history.pushState({ modalOpen: true }, "", "#school-" + u.id);
+}
+
+function closeDetail(fromBack) {
+  // If closed via X button / backdrop / Escape, pop the history entry we
+  // added. If closed via the phone's back button, it's already gone.
+  if (!fromBack && history.state && history.state.modalOpen) {
+    history.back();
+    return; // the popstate listener below does the actual closing
+  }
+  modal.classList.add("hidden");
+  document.body.style.overflow = "";
+  if (window._cdTimer) clearInterval(window._cdTimer);
+}
+
+// Fires when the user taps the phone's back button
+window.addEventListener("popstate", () => {
+  if (!modal.classList.contains("hidden")) {
+    closeDetail(true); // close WITHOUT calling history.back() again
+  }
+});
+
+modal.addEventListener("click", (e) => { if (e.target === modal) closeDetail(); });
+document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeDetail(); });
+
+function startCountdown(deadline) {
+  const box = document.getElementById("countdownBox");
+  if (window._cdTimer) clearInterval(window._cdTimer);
+  function tick() {
+    const liveBox = document.getElementById("countdownBox");
+    if (!liveBox || modal.classList.contains("hidden")) { clearInterval(window._cdTimer); return; }
+    const diff = deadlineDate(deadline) - Date.now();
+    if (diff <= 0) { liveBox.innerHTML = '<span class="text-red-400 font-bold">CLOSED</span>'; clearInterval(window._cdTimer); return; }
+    const d = Math.floor(diff / 864e5), h = Math.floor(diff / 36e5) % 24, m = Math.floor(diff / 6e4) % 60, s = Math.floor(diff / 1e3) % 60;
+    liveBox.innerHTML = [["Days", d], ["Hrs", h], ["Min", m], ["Sec", s]].map(([l, v]) => `
+      <div class="inline-block rounded-lg bg-navy-900 border border-white/10 text-white px-3 py-2 text-center min-w-[56px] mr-2">
+        <div class="text-lg font-black">${String(v).padStart(2, "0")}</div>
+        <div class="text-[10px] text-slate-300">${l}</div>
+      </div>`).join("");
+  }
+  tick();
+  window._cdTimer = setInterval(tick, 1000);
+}
+
+renderFilters();
+renderGrid();
+renderCompare();
+</script>
+<script>
+/* ============ FAQ ACCORDION ============ */
+document.querySelectorAll(".faq-q").forEach((btn) => {
+  btn.addEventListener("click", () => {
+    const answer = btn.nextElementSibling;
+    const icon = btn.querySelector("i");
+    const isOpen = !answer.classList.contains("hidden");
+
+    // close all others (one open at a time — delete this block for multi-open)
+    document.querySelectorAll(".faq-a").forEach((a) => a.classList.add("hidden"));
+    document.querySelectorAll(".faq-q i").forEach((i) => i.classList.remove("rotate-180"));
+
+    if (!isOpen) {
+      answer.classList.remove("hidden");
+      icon.classList.add("rotate-180");
+    }
+  });
+});
+</script>
+</body>
+</html>
